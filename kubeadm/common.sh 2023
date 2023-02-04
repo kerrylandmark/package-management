@@ -97,5 +97,5 @@ systemctl start kubelet
 systemctl enable kubelet.service
 
 kubeadm join 172.0.0.194:6443 --token s98o9z.cr92sbaosrohbw50 \
-        --discovery-token-ca-cert-hash sha256:c0429aa421b97d82d09ab15e026e828f84                                                 918eb57f022dabc09c6ecd9c3fc9b1
+        --discovery-token-ca-cert-hash sha256:c0429aa421b97d82d09ab15e026e828f84918eb57f022dabc09c6ecd9c3fc9b1
 
